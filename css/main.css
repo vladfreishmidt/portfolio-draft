@@ -1,0 +1,96 @@
+
+/*********************
+GENERAL
+*********************/
+
+ body {
+   /*background:*/
+ }
+
+
+
+ /*********************
+ HEADER
+ *********************/
+
+ header {
+   background: #F9F7F9;
+   padding: 15px 20px;
+ }
+
+ #logo {
+   display: inline-block;
+   width: 60px;
+   height: 60px;
+   background: #3498DD;
+ }
+
+ #top-nav {
+   float: right;
+   display: inline-block;
+ }
+
+ #top-nav a {
+   display: inline-block;
+   font-family: sans-serif;
+   padding: 15px 15px;
+   text-transform: uppercase;
+   text-decoration: none;
+   color: #3D3B42;
+ }
+
+ #top-nav a:hover {
+   color: #3698DA;
+ }
+
+
+
+ /*********************
+ JUMBO
+ *********************/
+
+ .jumbo {
+   padding: 250px 0;
+ }
+ .jumbo h1 {
+   text-align: center;
+   font-family: sans-serif;
+   color: #3D3B42;
+   font-size: 3em;
+ }
+
+
+
+ /*********************
+ WORK
+ *********************/
+
+ .work {
+   max-width: 960px;
+   margin: 0 auto;
+   display: flex;
+   flex-wrap: wrap;
+   padding: 60px 100px;
+   justify-content: center;
+ }
+
+ .work .box {
+   display: inline-block;
+   justify-content: space-between;
+   margin:20px;
+   min-width: 250px;
+   height: 250px;
+   background: #3698DA;
+ }
+
+ .work .box-one {
+    background-image: url(http://www.danschmid.com/wp-content/uploads/2017/02/logo-design.png);
+ }
+
+ .work .box .hoverBox {
+   background: rgba(54, 152, 218, .5);
+   position: relative;
+   display: inline-block;
+   height: 100%;
+   position: 100%;
+ }
