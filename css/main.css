@@ -1,0 +1,62 @@
+
+  /*********************
+  GENERAL
+  *********************/
+
+ body {
+   text-align: center;
+   font-family: sans-serif;
+   background: #F7F5F7;
+   color: #3D3B42;
+ }
+
+
+
+  /*********************
+  PAGE:MAIN
+  *********************/
+ .main{
+   padding: 20px;
+ }
+ .main .profile-photo {
+   max-width: 200px;
+   border-radius: 50%;
+ }
+
+ .main h1 {
+   margin: 40px 0;
+   padding-bottom: 40px;
+   font-size: 2em;
+   text-transform: uppercase;
+   border-bottom: 1px dashed #3D3B42;
+   /* border-bottom-width: 10%; FIX! make border shorter */
+ }
+
+ .main p {
+   margin: 20px 0;
+   line-height: 1.55em;
+   font-size: 1.1em;
+ }
+
+ .navbar {
+   margin: 0 auto;
+   max-width: 80%;
+ }
+
+ .navbar ul {
+   padding: 0;
+   list-style: none;
+ }
+
+ .navbar ul li {
+   border: 1px solid #E0DFE0;
+   padding: 15px 25px;
+   margin-bottom: 20px;
+ }
+
+ .navbar a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #3D3B42;
+
+ }
