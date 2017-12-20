@@ -54,15 +54,53 @@
  }
 
  .navbar ul li {
+   position: relative;
    border: 1px solid #E0DFE0;
    border-radius: 2px;
    padding: 15px 25px;
    margin-bottom: 20px;
  }
 
+ .navbar ul .about::after {
+   position:absolute;
+   font-family: 'FontAwesome';
+   font-size: 2em;
+   color: #ccc;
+   top: 0;
+   left: 0;
+   content: "\f007";
+ }
+
  .navbar a {
   text-decoration: none;
   text-transform: uppercase;
   color: #3D3B42;
+ }
 
+
+
+ /*********************
+ PAGE:PORTFOLIO
+ *********************/
+
+ .portfolio {
+   width: 100%;
+   background: #3598DB;
+   color: #FFF;
+   text-align: center;
+   text-transform: uppercase;
+ }
+
+ .portfolio h3 {
+   padding: 20px;
+   font-weight: 300;
+   letter-spacing: .1em;
+ }
+
+ .portfolio_item {
+   display: inline-block;
+   background-color: #ccc;
+   width: 90%;
+   height: 250px;
+   margin: 15px 20px;
  }
