@@ -15,21 +15,33 @@
   /*********************
   PAGE:MAIN
   *********************/
- .main{
+ .main {
    padding: 15px;
  }
+
  .main .profile-photo {
    max-width: 200px;
    border-radius: 50%;
  }
 
  .main h1 {
+   position: relative;
    margin: 40px 0 0;
    padding-bottom: 40px;
    font-weight: 300;
    font-size: 2em;
    text-transform: uppercase;
    /*border-bottom-width: medium; FIX! make border shorter */
+ }
+
+ h1::after {
+      content:"";
+      position: absolute;
+      bottom: 0;
+      left: calc(50% - 50px);
+      height: 1px;
+      background-color: #E0DFE0;
+      width: 100px;
  }
 
  hr {
@@ -61,7 +73,7 @@
    margin-bottom: 20px;
  }
 
- .navbar ul .about::after {
+ .navbar .about::after {
    position:absolute;
    font-family: 'FontAwesome';
    font-size: 2em;
